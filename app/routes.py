@@ -2,6 +2,6 @@ from app import app
 
 
 @app.route("/")
-@app.route("/index")
-def index():
+@app.route("/inspiration")
+def inspiration_feed():
     return "Pixel Herder: Where Your Creative Story Unfolds"
